@@ -5,6 +5,7 @@ body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     color: #74787A;
+    font-family: "Roboto";
 }
 
 a {
@@ -16,6 +17,11 @@ a {
     clear: both;
     display: table;
   }
+
+.largerText {
+    font-size: x-large;
+}
+
 /* Header contents: Includes name and Navigation bar*/
 
 header {
@@ -41,6 +47,28 @@ header {
     background-color: #3DDB93;
 }
 
+#navBar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #D1D6DA;
+    text-decoration: none;
+  }
+
 /* The "body" or meat of this landing page; picture and short bio */
 
 #body {
@@ -53,37 +81,30 @@ header {
 
 }
 
-#organ {
-    margin: 10px;
-}
-#navBar {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-    list-style-type: none;
+#lineBreak {
+    height: 1px;
+    background-color: #74787A;
 }
 
-li {
-    float: right;
-    padding: 14px 16px;
+
+#organ {
+    margin: 10px;
 }
 
 /* Footer */
 
 footer {
-    position: relative;
-    height: 50px;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
     color: white;
     background-color: #74787A;
     border-top: #3DDB93 5px solid;
     text-align: center;
-    margin-top: 10px;
 }
 
 #copyright {
     font-size: x-small;
-    position: absolute;
-    bottom: 0;
-    margin: 0;
+    padding: 30px 0px 0px 0px;
 }
