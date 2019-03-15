@@ -108,3 +108,41 @@ footer {
     font-size: x-small;
     padding: 30px 0px 0px 0px;
 }
+
+/* Contacts Page: Body */
+
+.row {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+
+}
+
+/* Portfolio Page: Body */
+
+.portfolio-cell {
+    overflow: auto;
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+
+.portfolio-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.portfolio-title {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3DDB93;
+    padding-left: 100%;
+    padding-right: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

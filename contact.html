@@ -25,16 +25,25 @@
 <br>
 
     <div id="body">
-        <section id="organ" class="clearfix">
+        <section id="organ">
             <h1 class="largerText">Contact</h1>
             <hr id="lineBreak">
-            <form>
-                <p>Name:</p> <br>
-                <input type="text" name="name"> <br>
-                <p>Email:</p><br>
-                <input type="text" name="email"> <br>
-                <p>Message</p> <br>
-                <textarea type="text" name="message"></textarea>
+            <form action="mailto:phamdarren1@gmail.com" method="post" enctype="text/plain">
+                <section class="row">
+                    Name: <br>
+                    <input class="row" type="text" name="name">
+                </section>
+                <section class="row">
+                    Email: <br>
+                    <input class="row" type="email" name="email">
+                </section>
+                <section class="row">
+                    <p>Message</p> <br>
+                    <textarea style="height:100px;" class="row" type="text" name="message"></textarea>
+                </section>
+                <section>
+                    <input type="submit" value="Submit">
+                </section>
             </form>
         </section>
     </div>
